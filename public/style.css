@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0F0F0;
+  color: #444;
+  font-family: 'manjari', sans-serif;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.title {
+  color: #f4f00e;
+  justify-content: center;
+  align-content: center;
+  font-size: 100px;
+}
+
+.project-title {
+  margin-top: 0;
+  font-size: 1.25em;
+}
+
+.project-image {
+  width: auto;
+  height: auto;
+  padding: 2%;
+}
+
+.website-link {
+  color: #BBDEFB;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* media queries */
+
+@media screen and (min-width: 700px) {
+  .about-content {
+    padding: 0 15%;
+  }
+
+  .project-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  .project-title {
+    margin-bottom: 0;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .project-right-container {
+    margin: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 90%;
+  }
+}
