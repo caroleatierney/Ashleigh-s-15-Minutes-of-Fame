@@ -1,0 +1,24 @@
+/* .videoContainer {
+    display: grid;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+} */
+
+* {
+    margin: 0;
+}
+
+.videoContainer {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.videoContainer p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

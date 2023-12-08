@@ -1,0 +1,11 @@
+{
+  "name": "ashleighs-15-minutes-of-fame",
+  "version": "1.0.0",
+  "description": "Marshfield's Varsity Cheer Coach becoming one of the Price is Right Contestants. Did she win it all? Watch and find out!",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
