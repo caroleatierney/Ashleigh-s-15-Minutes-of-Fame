@@ -4,7 +4,8 @@
   "description": "Marshfield's Varsity Cheer Coach becoming one of the Price is Right Contestants. Did she win it all? Watch and find out!",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "tailwindcss init -p && tailwindcss build"
+    "build": "tailwindcss init -p && tailwindcss build",
+    "deploy": "git subtree push --prefix src origin gh-pages"
   },
   "keywords": [],
   "author": "",
