@@ -9,8 +9,11 @@ https://www.wickedlocal.com/story/marshfield-mariner/2021/04/07/why-theyre-runni
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s12s5pMBWVc?si=dMKKm0ZqL-g94lnr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-- - - - - - - - - - - Deploy to gh-pages when index is in a different folder - - - - - - - - - - -
-Index has to be in the root folder or the docs folder
-you can specify in settings for gh-pages
+- - - - - - - - - - - package.json changes - - - - - - - - - - -
 
-then use npm run deploy to pubkish to gh-pages
+Added this to scripts:
+
+  "scripts": {
+    "build": "tailwindcss init -p && tailwindcss build",
+    "deploy": "gh-pages -d dist"
+  },
