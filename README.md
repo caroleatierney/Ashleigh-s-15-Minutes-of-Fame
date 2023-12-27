@@ -11,6 +11,10 @@ https://www.wickedlocal.com/story/marshfield-mariner/2021/04/07/why-theyre-runni
 
 - - - - - - - - - - - package.json changes - - - - - - - - - - -
 
+what is this? - just used to install?
+ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+
 Added this to scripts:
 
   "scripts": {
