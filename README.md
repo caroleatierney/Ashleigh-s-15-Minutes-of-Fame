@@ -17,3 +17,6 @@ Added this to scripts:
     "build": "tailwindcss init -p && tailwindcss build",
     "deploy": "gh-pages -d dist"
   },
+
+
+https://github.com/alextwothousand/pricedown-font-web
